@@ -1,0 +1,10 @@
+<mvc:View controllerName="imagecatch.controller.Index" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <FlexBox justifyContent= "Center">
+                <Input id = "ip_busca"/>
+                <Button text = "Buscar" press = "onPressBuscar"/>
+            </FlexBox>
+        </content>
+    </Page>
+</mvc:View>
