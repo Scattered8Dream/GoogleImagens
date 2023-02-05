@@ -9,7 +9,27 @@ sap.ui.define([
 
         return Controller.extend("imagecatch.controller.Index", {
             onInit: function () {
+                var imageList = {
+                    Imagens : [
+                    {
+                        url : "https://cdn.albumoftheyear.org/album/78827-coisas.jpg",
+                        thumbnail : "https://rapidapi.usearch.com/api/thumbnail/get?value=2725385943732621789",
+                        title : "Moacir Santos - Coisas - Reviews - Album of The Year",
+                        provider : {
+                            name : "albumoftheyear"
+                        }
+                    },
+                    {    
 
+                        url : "https://cdn.albumoftheyear.org/album/78827-coisas.jpg",
+                        thumbnail : "https://rapidapi.usearch.com/api/thumbnail/get?value=2725385943732621789",
+                        title : "Moacir Santos - Coisas - Reviews - Album of The Year",
+                        provider : {
+                            name : "albumoftheyear"
+                        }
+                    }
+                    ]
+                }
             },
             
             
