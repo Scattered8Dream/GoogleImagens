@@ -6,13 +6,13 @@
                 <Button text="Buscar" press="onPressBuscar" />
             </FlexBox>
 
-            <List headerText="Lista de Resultados">
+            <List headerText="Lista de Resultados" items="{ModeloImagem>/Imagens}">
                 <CustomListItem>
                     <HBox>
-                        <Image src="https://cdn.albumoftheyear.org/album/78827-coisas.jpg" width="100px" heigth="100px" />
+                        <Image src="{ModeloImagem>thumbnail}" width="100px" heigth="100px" />
                         <VBox>
-                            <Link text="Moacir Santos - Coisas" href="https://cdn.albumoftheyear.org/album/78827-coisas.jpg" target="_blank" />
-                            <Label text="Moacir Santos - Coisas - Reviews - Album of The Year" />
+                            <Link text="{ModeloImagem>title}" href="{ModeloImagem>url}" target="_blank" />
+                            <Label text="{ModeloImagem>provider/name}" />
                         </VBox>
                     </HBox>
                 </CustomListItem>
