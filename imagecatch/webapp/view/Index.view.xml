@@ -2,7 +2,7 @@
     <Page id="page" title="{i18n>title}">
         <content>
             <FlexBox justifyContent="Center">
-                <Input id="ip_busca" />
+                <Input id="ip_busca" sumbmit ="onPressBuscar"/>
                 <Button text="Buscar" press="onPressBuscar" />
             </FlexBox>
 
